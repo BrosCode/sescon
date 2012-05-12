@@ -1,6 +1,5 @@
 package de.broscode.sescon.dao.spieler;
 
-import org.springframework.orm.hibernate.support.HibernateDaoSupport;
 
-public class SpielerDao extends HibernateDaoSupport {
+public class SpielerDao extends org.springframework.orm.hibernate3.support.HibernateDaoSupport {
 }

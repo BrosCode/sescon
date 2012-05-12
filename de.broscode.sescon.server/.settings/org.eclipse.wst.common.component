@@ -8,6 +8,12 @@
         <dependent-module archiveName="de.broscode.sescon.server.interfaces-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/de.broscode.sescon.server.interfaces/de.broscode.sescon.server.interfaces">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="de.broscode.sescon.database-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/de.broscode.sescon.database/de.broscode.sescon.database">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="de.broscode.sescon.domain-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/de.broscode.sescon.domain/de.broscode.sescon.domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/de.broscode.sescon.server/build/classes"/>
         <property name="context-root" value="sescon-core"/>
     </wb-module>

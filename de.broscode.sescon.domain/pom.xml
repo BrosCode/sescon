@@ -5,9 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
-  		<groupId>org.hibernate</groupId>
-  		<artifactId>hibernate-annotations</artifactId>
-  		<version>3.5.6-Final</version>
+  		<groupId>net.java.dev.spring-annotation</groupId>
+  		<artifactId>spring-annotation-hibernate</artifactId>
+  		<version>1.0.2</version>
   	</dependency>
   </dependencies>
 </project>
